@@ -3,6 +3,10 @@
   width: 500px;
   height: 500px;
   position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100%;
   .wrapper {
     display: flex;
     position: absolute;
@@ -64,4 +68,11 @@
       }
     }
   }
+}
+
+.container {
+  background-color: #C7EEEE;
+  height: 570px;
+  margin: 0;
+  width: 100%;
 }
